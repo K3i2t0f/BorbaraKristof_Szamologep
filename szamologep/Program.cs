@@ -10,7 +10,11 @@ namespace szamologep
     {
         static void Main(string[] args)
         {
+            indit();
+        }
 
+        static void indit()
+        {
         }
 
         static int Osszeadas(int szam1, int szam2)
