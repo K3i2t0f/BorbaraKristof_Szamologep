@@ -33,5 +33,10 @@ namespace szamologep
             return szam1 * szam2;
         }
 
+        static int Szazalek(int szam1, int szam2)
+        {
+            return szam1 * szam2 / 100;
+        }
+
     }
 }
