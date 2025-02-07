@@ -19,6 +19,32 @@ namespace szamologep
             int szam1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Kérem adja meg a második számot:");
             int szam2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Kérem válasszon műveletet: +, -, *, /, %");
+            string muvelet = Console.ReadLine();
+            if (muvelet == "+")
+            {
+                System.Console.WriteLine("Az összeg: " + Osszeadas(szam1, szam2));
+            }
+            else if (muvelet == "-")
+            {
+                System.Console.WriteLine("A különbség: " + Kivonas(szam1, szam2));
+            }
+            else if (muvelet == "*")
+            {
+                System.Console.WriteLine("A szorzat: " + Szorzas(szam1, szam2));
+            }
+            else if (muvelet == "/")
+            {
+                System.Console.WriteLine("Az osztás: " + Osztas(szam1, szam2));
+            }
+            else if (muvelet == "%")
+            {
+                System.Console.WriteLine("A százalék: " + Szazalek(szam1, szam2));
+            }
+            else
+            {
+                System.Console.WriteLine("Nem megfelelő művelet!");
+            }
         }
 
         static int Osszeadas(int szam1, int szam2)
