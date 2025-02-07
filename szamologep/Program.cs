@@ -15,6 +15,10 @@ namespace szamologep
 
         static void indit()
         {
+            Console.WriteLine("Kérem adja meg az első számot:");
+            int szam1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Kérem adja meg a második számot:");
+            int szam2 = int.Parse(Console.ReadLine());
         }
 
         static int Osszeadas(int szam1, int szam2)
