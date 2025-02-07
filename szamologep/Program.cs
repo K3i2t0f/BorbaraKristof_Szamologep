@@ -16,6 +16,10 @@ namespace szamologep
         {
             return szam1 + szam2;
         }
+        static int Kivonas(int a, int b)
+        {
+            return a - b;
+        }
 
     }
 }
