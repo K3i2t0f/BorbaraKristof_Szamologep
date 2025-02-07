@@ -20,6 +20,14 @@ namespace szamologep
         {
             return szam1 - szam2;
         }
+        static int Osztas(int szam1, int szam2)
+        {
+            return szam1 / szam2;
+        }
+        static int Szorzas(int szam1, int szam2)
+        {
+            return szam1 * szam2;
+        }
 
     }
 }
