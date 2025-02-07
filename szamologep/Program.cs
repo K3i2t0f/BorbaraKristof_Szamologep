@@ -10,6 +10,12 @@ namespace szamologep
     {
         static void Main(string[] args)
         {
+
         }
+        static int Osszeadas(int szam1, int szam2)
+        {
+            return szam1 + szam2;
+        }
+
     }
 }
